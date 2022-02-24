@@ -1,0 +1,148 @@
+body{
+  /* background-color: #E9E5D6; */
+  margin: 0 ;
+  text-align:center;
+  font-size:1em;
+  color:#1A374D;
+  font-family: 'Luxurious Roman', cursive;
+}
+p{
+  line-height:2;
+}
+h1{
+  color:#398AB9;
+  margin:50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size:4rem;
+line-height:2;
+}
+h2{
+  font-weight: normal;
+  color:#398AB9;
+  font-size: 1.5rem;
+  padding-bottom:10px;
+}
+h3{
+ color:#00B4D8;
+}
+.pro{
+  /* text-decoration:underline; */
+  font-family: 'Luxurious Roman', cursive;
+}
+.skill-row{
+  text-align:left;
+  margin:100px auto 100px auto;
+  width:50%;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom:none;
+  margin:100px auto;
+  width:10%;
+}
+.row-1{
+  width:25%;
+  float:left;
+  margin-right:30px;
+}
+.row-2{
+  width:25%;
+  float:right;
+  margin-left:30px;
+}
+a{
+color:#00B4D8;
+margin:20px 10px;
+text-decoration:none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+/* #profilePic{
+  border-radius: 50%
+  border: 5px solid #789395;
+} */
+.top{
+  background-color:#D8D2CB;
+  position:relative;
+  padding-top:20px;
+  }
+/* .top-image{
+  position:absolute;
+  right:300px;
+  top:50px;
+}
+.bottom-image{
+  position:absolute;
+  left:300px;
+  bottom:300px;
+} */
+.hello-para{
+  width:30%;
+  margin:50px auto;
+}
+/* @counter-style repeating-emoji {
+  system: cyclic;
+  symbols: "🎨" "🎵" "💃"; // unicode code point
+  suffix: " ";
+}*/
+ul {
+  list-style-type: none;
+
+}
+.middle-container{
+  margin:100px auto;
+}
+.bottom-container{
+background-color:#398AB9;
+padding:50px 0 20px;
+}
+.regno{
+  color:#EAF6F6;
+  font-size:1rem;
+  padding:20px 0;
+}
+.contact-para{
+  width:40%;
+  margin:40px auto;
+}
+input[type=text], input[type="tel"],input[type="email"] {
+  border: 1px solid #398AB9;
+  border-radius: 5px;
+  /* display: flex;
+  align-items: center; */
+  font-size: 16px;
+  padding: 10px;
+  width: 30%;
+}
+input[type="radio"] {
+  font-size: 16px;
+}
+textarea {
+  width: 30%;
+  height: 100px;
+  padding: 10px;
+  /* box-sizing: border-box; */
+  border: 1px solid #398AB9;
+  border-radius: 5px;
+  font-size: 16px;
+  /* background-color: #f8f8f8; */
+  /* resize: none; */
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  text-shadow: 0 4px 5px #003440;
+  font-family: 'Luxurious Roman', cursive;
+  color: #EAF6F6;
+  font-size: 16px;
+  background: #00B4D8;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #398AB9;
+  text-decoration: none;
+}

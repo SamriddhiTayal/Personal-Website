@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="Images/form.png">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Luxurious+Roman&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color:#EEEEEE">
+  <h2>Contact Me</h2>
+  <form action="/action_page.php" method="get">
+    <label>Your Name:</label><br>
+    <input type="text" name="your Name" placeholder="Enter your name.." required><br><br>
+    <p>Gender:</p>
+    <input type="radio" id="Female" name="gender" value="Female">
+    <label for="Female">Female</label><br>
+    <input type="radio" id="Male" name="gender" value="Male">
+    <label for="Male">Male</label><br>
+    <input type="radio" id="Others" name="gender" value="Others">
+    <label for="Others">Others</label><br><br>
+    <label>Your Email</label><br>
+    <input type="email" name="your Email" placeholder="Enter your email address.."><br><br>
+    <label>Contact Number:</label><br>
+    <input type="tel" id="pno" name="pno" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="1234567890"><br><br>
+    <label>Message:</label><br>
+    <textarea name="your Message" placeholder="Your message.." rows="10" cols="30"></textarea><br><br>
+    <input type="submit" class="btn" name="">
+    <input type="reset" class="btn">
+  </form>
+</body>
+
+</html>
