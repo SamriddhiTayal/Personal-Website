@@ -1,5 +1,4 @@
 body{
-  /* background-color: #E9E5D6; */
   margin: 0 ;
   text-align:center;
   font-size:1em;
@@ -26,7 +25,6 @@ h3{
  color:#00B4D8;
 }
 .pro{
-  /* text-decoration:underline; */
   font-family: 'Luxurious Roman', cursive;
 }
 .skill-row{
@@ -58,25 +56,6 @@ text-decoration:none;
 a:hover{
   color:#EAF6F6;
 }
-/* #profilePic{
-  border-radius: 50%
-  border: 5px solid #789395;
-} */
-.top{
-  background-color:#D8D2CB;
-  position:relative;
-  padding-top:20px;
-  }
-/* .top-image{
-  position:absolute;
-  right:300px;
-  top:50px;
-}
-.bottom-image{
-  position:absolute;
-  left:300px;
-  bottom:300px;
-} */
 .hello-para{
   width:30%;
   margin:50px auto;
@@ -88,7 +67,6 @@ a:hover{
 }*/
 ul {
   list-style-type: none;
-
 }
 .middle-container{
   margin:100px auto;
@@ -109,8 +87,6 @@ padding:50px 0 20px;
 input[type=text], input[type="tel"],input[type="email"] {
   border: 1px solid #398AB9;
   border-radius: 5px;
-  /* display: flex;
-  align-items: center; */
   font-size: 16px;
   padding: 10px;
   width: 30%;
@@ -122,12 +98,9 @@ textarea {
   width: 30%;
   height: 100px;
   padding: 10px;
-  /* box-sizing: border-box; */
   border: 1px solid #398AB9;
   border-radius: 5px;
   font-size: 16px;
-  /* background-color: #f8f8f8; */
-  /* resize: none; */
 }
 .btn {
   -webkit-border-radius: 10;
